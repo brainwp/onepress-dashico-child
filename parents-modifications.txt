@@ -1,0 +1,10 @@
+/* MANTENDO O QUE VAMOS MUDAR NO PARENT THEME AQUI
+-------------------------------------------------------------- */
+
+/*--------------------------------------------------- */
+Arquivo: customizer.php
+Local: inc/
+Linha: 785
+Code: 'max_item'      => 3, // Maximum item can add
+
+

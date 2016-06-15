@@ -1,0 +1,64 @@
+/*
+ Theme Name:   OnePress Dashicô Child
+ Theme URI:    https://br.wordpress.org/themes/onepress/
+ Description:  OnePress sample child theme
+ Author:       Brasa
+ Author URI:   http://www.brasa.art.br
+ Template:     onepress
+ Version:      1.0.0
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  onepress-child
+*/
+
+/* Add your custom css below
+-------------------------------------------------------------- */
+
+.hero-content-style1 {
+	text-align: right;
+}
+
+.hero-content-style1 p {
+	font-size: 18px;
+	max-width: 60%;
+	margin-left: 40%;
+}
+
+.section-news .list-article-content {
+	float: left;
+}
+
+.section-news .list-article {
+	width: 31%;
+	float: left;
+	margin-right: 2%;
+	margin-top: -60px;
+}
+
+.section-news .list-article {
+	border-bottom: none;
+	border-top: none;
+}
+
+.section-news .list-article:last-of-type {
+	border-bottom: none;
+}
+
+.section-news .list-article-meta {
+	margin-top: 10px;
+}
+
+.hero-slideshow-wrapper:after {
+	background-color: rgba(0,0,0,0.0);
+}
+
+.header-transparent .hero-slideshow-fullscreen .hero__content {
+	padding-top: 20em !important;
+}
+
+.logo-rodape {
+	float: none;
+	margin: -10px auto 20px;
+	width: 706px;
+	height: 68px;
+	background: url("images/regua-logos.png") repeat scroll 0 0 transparent;
+}
