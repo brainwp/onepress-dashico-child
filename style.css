@@ -62,3 +62,30 @@
 	height: 68px;
 	background: url("images/regua-logos.png") repeat scroll 0 0 transparent;
 }
+
+.blog .list-article-content {
+	float: left;
+	margin-top: 20px;
+}
+
+.blog .list-article {
+	width: 31%;
+	float: left;
+	margin-right: 2%;
+	padding: 0px;
+	min-height: 390px;
+	margin-bottom: 2%;
+}
+
+.blog .list-article {
+	border-bottom: none;
+	border-top: none;
+}
+
+.blog .list-article:last-of-type {
+	border-bottom: none;
+}
+
+.blog .list-article-meta {
+	margin-top: 10px;
+}
