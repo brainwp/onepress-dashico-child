@@ -7,4 +7,11 @@ Local: inc/
 Linha: 785
 Code: 'max_item'      => 3, // Maximum item can add
 
+Arquivo: functions.php
+Local: /
+Linha: 107
+Code: $GLOBALS['content_width'] = apply_filters( 'onepress_content_width', 1140 );
+
+
+
 

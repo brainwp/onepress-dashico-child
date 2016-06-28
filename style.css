@@ -15,6 +15,7 @@
 
 .hero-content-style1 {
 	text-align: right;
+	margin-top: 12%;
 }
 
 .hero-content-style1 p {
@@ -98,4 +99,20 @@
 	display: none;
 }
 
+@media screen and (max-width:600px) {
+	.list-article {
+		width: 100% !important;
+		margin-right: 0% !important;
+		min-height: auto !important;
+	}
+
+	.hero-slideshow-wrapper img {
+		display: none !important;
+	}
+
+	.hero-slideshow-wrapper {
+		background-color: #00657C !important;
+		max-height: 360px !important;
+	}
+}
 
