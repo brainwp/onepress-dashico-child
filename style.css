@@ -59,9 +59,11 @@
 .logo-rodape {
 	float: none;
 	margin: -10px auto 20px;
-	width: 706px;
+	max-width: 706px;
 	height: 68px;
-	background: url("images/regua-logos.png") repeat scroll 0 0 transparent;
+	background: url("images/regua-logos.png") no-repeat scroll 0 0 transparent;
+	width: 100%;
+	background-size: 100%;
 }
 
 .blog .list-article-content {
@@ -114,5 +116,8 @@
 		background-color: #00657C !important;
 		max-height: 360px !important;
 	}
-}
 
+	.logo-rodape {
+	    height: 35px;
+	}
+}
