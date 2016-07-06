@@ -94,9 +94,12 @@
                         <a class="back-top-top" href="#page" title="<?php echo esc_html__('Back To Top', 'onepress') ?>"><i class="fa fa-angle-double-up wow flash" data-wow-duration="2s"></i></a>
                     </div>
                 <?php endif; ?>
-	<div class="logo-rodape">
+	<div class="logo-rodape" alt="Logos de realizadores no Rodape">
     	</div><!-- .logo-rodape -->
-	<div class="info-rodape">Alguns Direitos Reservados - Ilha Grande/RJ<span class="sep"> &ndash; </span> Orgulhosamente feito com <a href="https://br.wordpress.org" target="_blank">WordPress</a></div>
+	<div class="info-rodape">Alguns Direitos Reservados | Ilha Grande - Angra dos Reis, RJ | contato@dashico.art.br
+		<br />
+	Orgulhosamente feito com <a href="https://br.wordpress.org" target="_blank">WordPress</a> pela <a class="logo-brasa" href="https://brasa.art.br" target="_blank">Brasa</a>
+	</div>
                 <?php
                 /**
                  * hooked onepress_footer_site_info

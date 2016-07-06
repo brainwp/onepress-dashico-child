@@ -59,8 +59,8 @@
 .logo-rodape {
 	float: none;
 	margin: -10px auto 20px;
-	max-width: 706px;
-	height: 68px;
+	max-width: 800px;
+	height: 102px;
 	background: url("images/regua-logos.png") no-repeat scroll 0 0 transparent;
 	width: 100%;
 	background-size: 100%;
@@ -76,8 +76,9 @@
 	float: left;
 	margin-right: 2%;
 	padding: 0px;
-	min-height: 390px;
+	min-height: 460px;
 	margin-bottom: 2%;
+	display: inline-block;
 }
 
 .blog .list-article {
@@ -99,6 +100,35 @@
 
 .category-galeria .entry-meta {
 	display: none;
+}
+
+#mirror-parallax-videolightbox {
+	height: 470px !important;
+
+}
+
+.section-news {
+	margin-top: 100px;
+}
+
+.all-news {
+	clear: both;
+}
+
+.site-footer .site-info {
+    line-height: 2.4;
+}
+
+a.logo-brasa {
+	padding: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+	background: url("images/brasa.png") no-repeat scroll center top transparent;
+	background-size: 100%;
+	text-indent: -9999px;
+	width: 52px;
+	height: 32px;
+	position: absolute;
 }
 
 @media screen and (max-width:600px) {
