@@ -98,7 +98,7 @@
     	</div><!-- .logo-rodape -->
 	<div class="info-rodape">Alguns Direitos Reservados | Ilha Grande - Angra dos Reis, RJ | contato@dashico.art.br
 		<br />
-	Orgulhosamente feito com <a href="https://br.wordpress.org" target="_blank">WordPress</a> pela <a class="logo-brasa" href="https://brasa.art.br" target="_blank">Brasa</a>
+	Orgulhosamente feito com <a href="https://br.wordpress.org" target="_blank">WordPress</a> pela <a class="logo-brasa" href="http://brasa.art.br" target="_blank">Brasa</a>
 	</div>
                 <?php
                 /**
