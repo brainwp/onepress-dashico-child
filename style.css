@@ -59,11 +59,10 @@
 .logo-rodape {
 	float: none;
 	margin: -10px auto 20px;
-	max-width: 890px;
-	height: 110px;
+	max-width: 940px;
+	height: 120px;
 	background: url("images/regua-logos.png") no-repeat scroll 0 0 transparent;
 	width: 100%;
-	background-size: 100%;
 }
 
 .blog .list-article-content {
