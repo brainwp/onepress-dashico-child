@@ -75,7 +75,7 @@
 	float: left;
 	margin-right: 2%;
 	padding: 0px;
-	min-height: 460px;
+	min-height: 480px;
 	margin-bottom: 2%;
 	display: inline-block;
 }
@@ -128,6 +128,14 @@ a.logo-brasa {
 	width: 52px;
 	height: 32px;
 	position: absolute;
+}
+
+.aesop-collection-grid.aesop-collection-grid-3col .aesop-collection-item {
+    width: 31.333%;
+}
+
+.aesop-story-collection .aesop-collection-item {
+    margin: 1%;
 }
 
 @media screen and (max-width:600px) {

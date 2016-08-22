@@ -11,6 +11,19 @@ add_action( 'wp_enqueue_scripts', 'onepress_child_enqueue_styles', 15 );
 function onepress_child_enqueue_styles() {
     wp_enqueue_style( 'onepress-child-style', get_stylesheet_directory_uri() . '/style.css' );
 }
+
+/**
+ * Filtra a categoria Galeria dos templates princiapis do site
+ */
+
+function exclude_category( $query ) {
+    if ( $query->is_home() && $query->is_main_query() ) {
+        $query->set( 'cat', '-2' );
+    }
+}
+add_action( 'pre_get_posts', 'exclude_category' );
+
+
 /**
  * Hook to add custom section after about section
  *
